@@ -116,7 +116,6 @@ def load_json(path):
 # To add a new match, just add a new folder in 'assets' and update this dictionary.
 AVAILABLE_MATCHES = {
     "ENG vs NZ T20I 2023": "assets/eng_nz_2023",
-    "Sample Match 02": "assets/sample_02"
 }
 
 # --- THE SIDEBAR COMMAND CENTER ---
