@@ -144,14 +144,14 @@ with st.sidebar:
     st.markdown("---")
 
 # System Limitations
-    st.markdown("<p style='font-size: 0.85rem; font-weight: 800; color: #e4e4e7; letter-spacing: 1px;'>SYSTEM LIMITATIONS</p>", unsafe_allow_html=True)
-    st.markdown("""
-        <div style='font-size: 0.85rem; line-height: 1.6; color: #d4d4d8;'>
-            <span style='color: #f43f5e;'>■</span> <b>UI Dependency:</b> The OCR engine relies on standard broadcast graphics. Custom scoreboards require recalibration.<br><br>
-            <span style='color: #f43f5e;'>■</span> <b>Latency Shift:</b> The trailing-edge interpolation assumes a 6-12s TV broadcast delay. Variations can cause clipping.<br><br>
-            <span style='color: #f43f5e;'>■</span> <b>Compute Overhead:</b> 1.0 FPS extraction limits scaling for real-time live broadcast integration.
-        </div>
-    """, unsafe_allow_html=True)
+st.markdown("<p style='font-size: 0.85rem; font-weight: 800; color: #e4e4e7; letter-spacing: 1px;'>SYSTEM LIMITATIONS</p>", unsafe_allow_html=True)
+st.markdown("""
+    <div style='font-size: 0.85rem; line-height: 1.6; color: #d4d4d8;'>
+        <span style='color: #f43f5e;'>■</span> <b>Hardware Acceleration:</b> While fully functional on standard CPUs, end-to-end processing is optimized for GPU environments, which yield an approximate 10x performance increase.<br><br>
+        <span style='color: #f43f5e;'>■</span> <b>Format Compatibility:</b> The current parsing logic is calibrated strictly for limited-overs formats (T20/ODI). Multi-day Test match integration is planned for future architecture updates.<br><br>
+        <span style='color: #f43f5e;'>■</span> <b>Broadcast Variations:</b> The OCR region-of-interest targets modern, bottom-aligned graphics. Legacy layouts (e.g., top-aligned Australian scoreboards) or significantly degraded, low-resolution video feeds may reduce extraction accuracy.
+    </div>
+""", unsafe_allow_html=True)
 
     st.markdown("---")
 
