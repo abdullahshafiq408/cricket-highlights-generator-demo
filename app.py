@@ -143,7 +143,7 @@ with st.sidebar:
 
     st.markdown("---")
 
-    # System Limitations
+# System Limitations
     st.markdown("<p style='font-size: 0.85rem; font-weight: 800; color: #e4e4e7; letter-spacing: 1px;'>SYSTEM LIMITATIONS</p>", unsafe_allow_html=True)
     st.markdown("""
         <div style='font-size: 0.85rem; line-height: 1.6; color: #d4d4d8;'>
